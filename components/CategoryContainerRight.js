@@ -40,7 +40,7 @@ const CategoryContainerRight = ({ title, description }) => {
           applications
         </Text>
         <View style={styles.ExploreContainer}>
-          <Text style={{ fontWeight: "bold", fontSize: 15, color: "darkblue" }}>
+          <Text style={{ fontWeight: "bold", fontSize: 15, color: "#146588" }}>
             EXPLORE >
           </Text>
         </View>

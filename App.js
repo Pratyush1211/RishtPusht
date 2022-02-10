@@ -6,6 +6,7 @@ import CategoryContainerRight from "./components/CategoryContainerRight";
 import ProductCard from "./components/ProductCard";
 import Swiper from "react-native-swiper";
 import { FontAwesome5 } from '@expo/vector-icons';
+import { FAB } from 'react-native-paper';
 
 
 import { FeaturesData } from "./Data/FeaturesDetails";
@@ -13,6 +14,11 @@ import { FeaturesData } from "./Data/FeaturesDetails";
 export default function App() {
   return (
     <View style={styles.container}>
+        <FAB
+    style={styles.fab}
+    icon="shopping"
+    onPress={() => console.log('Pressed')}
+  />
       <ScrollView contentContainerStyle={{ justifyContent: "center" }}>
         <View style={styles.HeaderBar}>
           <Text style={styles.HeadingText}>
@@ -136,7 +142,14 @@ const styles = StyleSheet.create({
   HeadingText: {
     fontSize: 22,
     fontWeight: "200",
-    color: "#00A3A3",
+    color: "#146588",
+  },
+  fab: {
+    position: 'absolute',
+    margin: 20,
+    right: 0,
+    bottom: 0,
+    backgroundColor:'#146588'
   },
   text: {
     color: '#fff',

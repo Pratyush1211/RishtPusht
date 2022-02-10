@@ -30,14 +30,14 @@ const ProductCard = ({title,description}) => {
         <Text style={{ fontSize: 12, marginTop: 3 }}>
         If you’ve ever wondered how to best use horizontal spaces on mobile applications, you should consider using carousels.
         </Text>
-        <Text style={{fontWeight: "bold", fontSize:15, color:'darkblue',marginTop:10 }}>Rs 240
+        <Text style={{fontWeight: "bold", fontSize:15, color:'#146588',marginTop:10 }}>Rs 240
         </Text>
         <View style={{borderWidth:1,marginTop:5,marginBottom:10,opacity:0.5,borderColor:'#00A3A3'}}/>
         <View style={styles.AddToCartContainer}>
-            <Text style={{fontWeight: "bold", fontSize:15, color:'darkblue'}}>
+            <Text style={{fontWeight: "bold", fontSize:15, color:'#146588'}}>
                 ADD TO CART
             </Text>
-            <FontAwesome5 name="share-alt" size={26} color="blue"/>
+            <FontAwesome5 name="share-alt" size={20} color="#146588"/>
         </View>
       </View>
     </View>
